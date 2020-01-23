@@ -1,0 +1,16 @@
+{
+    "name": "mickey/currency-trader-api",
+    "type": "project",
+    "require": {
+      "ext-pdo": "*",
+      "ext-curl": "*",
+      "ext-json": "*"
+    },
+
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/",
+            "Core\\": "core/"
+        }
+    }
+}
